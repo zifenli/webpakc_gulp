@@ -1,0 +1,10 @@
+{
+  "name": "weidong",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "zifenli <zifenli@gmail.com>",
+  "scripts": {
+    "dev": "node build-scripts/dev-server.js",
+    "build": "node build-scripts/build.js"
+  }
+}

@@ -1,0 +1,40 @@
+@import "variables";
+
+.m-calendarHeader{
+  font-size: 0;
+  background-color: @white-color-base;
+  >li{
+    display: inline-block;
+    width:25%;
+    padding: 8px 0 12px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:0;
+  }
+  >li.day{
+    .date{
+      padding:0 0 6px 0;
+      height: 16px;
+      line-height: 16px;
+      font-size: @font-size-medium;
+      color:@black-color-dark;
+    }
+    .dateName{
+      font-size: @font-size-bigger;
+      height: 18px;
+      line-height: 18px;
+      color:@black-color-dark;
+    }
+  }
+  >li.day.z-active{
+    .date{color: @main-color;}
+    .dateName{color: @main-color;}
+    border-bottom: 3px solid @main-color;
+  }
+  .dateIcn{
+    img{
+      width: 30px;
+      height: 32px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.m-stars {
+  margin: 0 -1px; position: relative; overflow: hidden;
+  .bg {
+    > .item {
+      background-image: url('../assets/icon_star_grey.png');
+    }
+  }
+  .cover {
+    position: absolute; left: 0; top: 0;
+    > .item {
+      background-image: url('../assets/icon_star.png');
+      &.sub {
+        background-image: none;
+        .mask {
+          overflow: hidden;
+          .star {
+            background-image: url('../assets/icon_star.png'); background-repeat: no-repeat; background-size: 100%; width: 12px; height: 12px; display: block;
+          }
+        }
+      }
+    }
+  }
+  .item {
+    float: left;  width: 12px; height: 12px;  margin: 0 1px; background-size: 100%; background-repeat: no-repeat;
+  }
+}

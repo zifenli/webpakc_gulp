@@ -1,0 +1,17 @@
+@import "variables";
+.m-empty {
+  overflow: hidden; text-align: center;
+  .icn {
+    display: inline-block; margin-top: 60px;
+  }
+  .txtWrap {
+    margin-top: 20px;
+    > p {
+      font-size: @font-size-small;
+      color: @gray-color-3;
+    }
+  }
+  &.m-empty-close{
+    .icn{margin-top:0;}
+  }
+}

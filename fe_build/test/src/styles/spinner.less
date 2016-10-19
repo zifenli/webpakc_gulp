@@ -1,0 +1,28 @@
+@import "variables";
+
+.m-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -93px;
+  transform: translateY(-50%);
+  width: 186px;
+  background-color: rgba(0, 0, 0, .62);
+  border-radius: 4px;
+  padding: 36px 0;
+  text-align: center;
+  line-height: 20px;
+  .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/ic_white_loading.png');
+    margin-right: 8px;
+  }
+  .txt {
+    display: inline-block;
+    font-size: @font-size-middle;
+    color: @white-color-base;
+  }
+
+}

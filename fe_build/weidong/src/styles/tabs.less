@@ -1,0 +1,32 @@
+@import 'variables';
+
+.m-tabs{
+  padding:0 65px;
+  height: 40px;
+  background-color: @white-color-base;
+  line-height: 40px;
+  border-bottom: 1px solid @main-color;
+  .tab{
+    display: inline-block;
+    position: relative;
+    width:50%;
+    font-size: @font-size-medium;
+    color: @font-color-2;
+    text-align: center;
+    &.z-active{
+      color: @font-color-main;
+    }
+    .arrow{
+      position: absolute;
+      bottom: -4px;
+      left: 50%;
+      margin-left: -2.5px;
+      width: 5px;
+      height:5px;
+      background-color: @white-color-base;
+      border-left:1px solid @main-color;
+      border-top:1px solid @main-color;
+      transform: rotate(45deg);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "test": {
+    "version": 1476855408075,
+    "dev": {
+      "_env": "development",
+      "_root": ""
+    },
+    "pro": {
+      "_env": "production",
+      "_root": "http://qcfile.b0.upaiyun.com/cloud/test/1476855408075/"
+    }
+  },
+  "weidong": {
+    "version": 1476855408075,
+    "dev": {
+      "_env": "development",
+      "_root": ""
+    },
+    "pro": {
+      "_env": "production",
+      "_root": "http://qcfile.b0.upaiyun.com/cloud/weidong/1476855408075/"
+    }
+  }
+}

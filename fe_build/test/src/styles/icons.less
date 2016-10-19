@@ -1,0 +1,62 @@
+.icn-mixin(@width, @height){
+  display:inline-block;width:@width;height:@height;background-size:100%;vertical-align:text-top; background-repeat: no-repeat;
+}
+
+.u-icn-emptyCourse {
+  .icn-mixin(80px, 80px);
+  background-image: url('../assets/icon_empty.png');
+}
+
+.u-icon-arrow(){
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  background:url("../assets/icon_arrow.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}
+.u-icon-arrow-right{.u-icon-arrow();}
+.u-icon-arrow-left{.u-icon-arrow();transform: rotate(-180deg);}
+.u-icon-arrow-down{.u-icon-arrow();transform: rotate(90deg);}
+
+.u-icn-flag {
+  .icn-mixin(10px, 12px);
+  background-image: url('../assets/icon_flag.png');
+}
+
+.u-icn-user {
+  .icn-mixin(10px, 12px);
+  background-image: url('../assets/icon_user.png');
+}
+
+.u-icn-guide {
+  .icn-mixin(10px, 19px);
+  background-image: url('../assets/icon_guide.png');
+}
+.u-icn-male {
+  .icn-mixin(14px, 14px);
+  background-image: url('../assets/ic_gender_male.png');
+}
+.u-icn-female {
+  .icn-mixin(14px, 14px);
+  background-image: url('../assets/ic_gender_female.png');
+  vertical-align: middle;
+}
+.u-icn-phone {
+  .icn-mixin(14px, 14px);
+  background-image: url('../assets/ic_detail_phone.png');
+  vertical-align: middle;
+}
+.u-icn-address {
+  .icn-mixin(14px, 14px);
+  background-image: url('../assets/ic_detail_address.png');
+  vertical-align: middle;
+}
+.u-icn-loading {
+  .icn-mixin(14px, 14px);
+  background-image: url('../assets/ic_loading.png');
+  animation: loadingRotate 2s infinite linear;
+  -webkit-animation: loadingRotate 2s infinite linear;
+}
+.u-test{
+  background-image: url('../assets/test.png');
+}
